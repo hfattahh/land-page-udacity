@@ -23,3 +23,7 @@ You will need to programmatically:
 * builds navigation,
 * scrolls to anchors from navigation,
 * and highlights section in viewport upon scrolling.
+
+## ToDo
+* hide navbar when the scrolling is stopped
+* add an active state to nav bar element that refer to the section in the view
