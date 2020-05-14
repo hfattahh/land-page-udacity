@@ -92,8 +92,9 @@ section {
 }
 .navbar__acitve{
   background: #333;
-  color: #fff;
   transition: ease 0.3s all;
+  font-size: 1.2em;
+  color: #fff!important;
 }
 
 /* Header Styles */
