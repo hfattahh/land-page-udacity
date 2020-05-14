@@ -19,6 +19,7 @@ const navbarBuilder = () => {
       const newLink = document.createElement('a');
       newLink.textContent = section.id;
       newLink.href = `#${section.id}`;
+      newLink.setAttribute('id', 'navbar__element'); //adding a navbar__element id to <a>
       newElement.appendChild(newLink);
       unorderList.appendChild(newElement);
  });
