@@ -32,7 +32,7 @@ const setActive = () => {
     y = rect.top;
     sectionHeight = rect.height;
     console.log("Top: " + y +", Height: " + sectionHeight);
-    if(y <= 100 && y > -(sectionHeight)){
+    if(y <= 250 && y > -(sectionHeight - 250)){
       // console.log(section.id); //for test
       section.classList.add("your-active-class");
     }
